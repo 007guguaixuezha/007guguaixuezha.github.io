@@ -11,10 +11,6 @@ import htmlModules from './config/htmlModules' // 自定义插入的html块
 const DOMAIN_NAME = 'xugaoyi.com' // 域名 (不带https)
 const WEB_SITE = `https://${DOMAIN_NAME}` // 网址
 
-module.exports = {  
-  // 其他配置项...  
-  dest: "public"  
-};
 
 export default defineConfig4CustomTheme<VdoingThemeConfig>({
   theme: 'vdoing', // 使用npm主题包
